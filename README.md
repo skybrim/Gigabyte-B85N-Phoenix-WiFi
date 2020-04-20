@@ -1,1 +1,1 @@
-# Gigabyte_Z390M_GAMING-hackintosh
+# Gigabyte-B85N-Phoenix-WiFi
