@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>#warning 1</key>
+	<string>PlatformInfo-generic 中</string>
+	<key>#warning 2</key>
+	<string>ROM&amp;SerialNumber&amp;UUID&amp;MLB 自行修改</string>
+	<key>#warning 3</key>
+	<string>修改完请删除 #wanring 条目</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -10,7 +16,7 @@
 				<key>Comment</key>
 				<string>plugin-type=1</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-PLUG.aml</string>
 			</dict>
@@ -18,7 +24,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-EC.aml</string>
 			</dict>
@@ -365,7 +371,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/BrcmBluetoothInjector</string>
+				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -692,14 +698,14 @@
 				<key>DefaultBackgroundColor</key>
 				<data>AAAAAA==</data>
 				<key>UIScale</key>
-				<data>Ag==</data>
+				<data>AQ==</data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 alcid=1</string>
+				<string>-v keepsyms=1 debug=0x100 alcid=1</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -760,17 +766,17 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02450802QXG2Y7AD</string>
+			<string>00000000</string>
 			<key>ROM</key>
-			<data>ESIzRFVm</data>
+			<data>AAAAAA==</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>iMac15,1</string>
+			<string>iMac14,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02NTGY4FY10</string>
+			<string>00000000</string>
 			<key>SystemUUID</key>
-			<string>962E1E46-5E67-4F30-B571-5E890EA0EE77</string>
+			<string>00000000</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
