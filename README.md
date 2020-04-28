@@ -1,6 +1,11 @@
 # Gigabyte-B85N-Phoenix-WiFi
 
-## 配置
+## 软件
+
+* [OpenCore 0.5.7](https://dortania.github.io/OpenCore-Desktop-Guide/)
+* macOS 10.15.4
+
+## 硬件配置
 
 黑苹果的配置，硬件需要关注兼容性的是 CPU、主板、显卡以及无线网卡。
 
